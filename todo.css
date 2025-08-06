@@ -1,0 +1,65 @@
+body {
+    color: white;
+    background-color: black;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    text-align: center; /* Centers heading and input bar */
+}
+
+.heading {
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #00ff99;
+}
+
+.inpdiv {
+    display: inline-grid; /* This keeps it centered */
+    grid-template-columns: 200px 150px 100px;
+    column-gap: 10px;
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+}
+
+input:focus {
+    outline: 2px solid #00ff99;
+}
+
+button {
+    padding: 8px 12px;
+    background-color: #00ff99;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #00cc77;
+}
+
+.tododiv {
+    display: inline-grid;
+    grid-template-columns: 200px 150px 100px;
+    column-gap: 10px;
+    row-gap: 10px;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.task-name {
+    padding: 8px;
+    background-color: #222;
+    border-radius: 4px;
+}
+
+.task-date {
+    padding: 8px;
+    background-color: #333;
+    border-radius: 4px;
+    text-align: center;
+}
