@@ -10,16 +10,6 @@ This project was made for learning purposes and is simple to understand for begi
 - ⌨️ Press **Enter** to quickly add tasks.
 
 
-## 📂 Project Structure
-index.html # Main HTML file
-todo.css # Styles for the app
-todo.js # JavaScript functionality
-screenshot.png # App preview image
-
-markdown
-Copy
-Edit
-
 ## 🛠 How to Use
 1. Clone or download this repository.
 2. Open `index.html` in your browser.
